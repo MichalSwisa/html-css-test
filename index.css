@@ -1,0 +1,78 @@
+.top-bar {
+    height: 5vh;
+    width: 100%;
+    position: relative;
+
+}
+
+
+
+
+#menu {
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.top-bar i,
+.top-bar select,
+.top-bar nav,
+.top-bar button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-menu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 164);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.right-btn {
+    display: inline-block;
+    float: right;
+}
+
+#s-btn {
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#l-btn {
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#question-icon {
+    margin-right: 10px;
+}
+
+
+.main {
+    width: 40%;
+    height: 20%;
+    vertical-align: middle;
+    border-radius: 15px;
+    border-color: rgb(167, 167, 164);
+}
+
+.main h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-weight: 100;
+    color: black;
+}

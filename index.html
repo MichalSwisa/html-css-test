@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="top-bar">
+        <i class="fa-brands fa-openai"></i>
+        <select name="menu" id="menu">
+            <option value="">ChatGPT</option>
+        </select>
+        <nav class="nav-menu">
+            <a href="index.html">Index</a>
+            <a href="images.html">Images</a>
+            <a href="agent.html">Agent</a>
+        </nav>
+        <div class="right-btn">
+            <button onclick="login" id="l-btn">Log in</button>
+            <button onclick="signup" id="s-btn">Sign up for free</button>
+            <i id="question-icon" class="fa-regular fa-circle-question"></i>
+        </div>
+
+    </section>
+    <section>
+        <div class="main">
+            <h1>What's on the agenda today?</h1>
+            <div class="text-box">
+                <input placeholder="Ask anything">
+                <div class="buttons">
+                    <div class="left-btn">
+                        <button onclick="attach"> <i class="fa-solid fa-paperclip"></i>
+                            attach</button>
+
+                        <button onclick="search"> <i class="fa-solid fa-globe"></i>
+                            search</button>
+                        <button onclick="study"> <i class="fa-solid fa-book-open"></i>
+                            study</button>
+                        <button onclick="createimage"> <i class="fa-regular fa-images"></i>
+                            create image</button>
+                    </div>
+
+                    <div class="right-btn">
+                        <button onClick="voice">
+                            <i class="fa-solid fa-grip-lines-vertical"></i>
+                            voice</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

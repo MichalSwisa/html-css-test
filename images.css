@@ -2,16 +2,17 @@
     height: 5vh;
     width: 100%;
     position: relative;
+    background: transparent;
 
 }
-
-
-
 
 #menu {
     display: inline-block;
     border-radius: 10px;
     font-size: 15px;
+    border: 1px solid #ddd;
+    background: transparent;
+
 }
 
 .top-bar i,
@@ -27,6 +28,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+
 }
 
 nav a {
@@ -47,6 +49,8 @@ nav a {
     margin-right: 10px;
     border-radius: 10px;
     font-size: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
 }
 
 #l-btn {
@@ -60,3 +64,87 @@ nav a {
 #question-icon {
     margin-right: 10px;
 }
+
+
+
+.images-section {
+    width: 50vw;
+    margin-left: 25%;
+}
+
+.images-section h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-weight: 400;
+    color: black;
+    font-size: 25px;
+}
+
+/* .try-style .h-4 {
+    float: left;
+} */
+
+ /* #left-arrow, #right-arrow {
+    float: right;
+    margin-right: 10px;
+} */
+
+
+.style-icons {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* .try-style .style-icons {
+    float: right;
+} */
+
+.title i {
+    border: 1px solid rgb(167, 167, 164);
+    border-radius: 100px;
+    padding: 3px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.title h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 67%;
+}
+
+
+
+.pictures figure {
+    display: inline-block;
+    width: 16%;
+    margin:0;
+}
+
+.pictures figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: transparent;
+    margin-right: 10px;
+}
+.pictures figcaption {
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 167, 164);
+    font-size: 15px;
+}
+
+.option img, .option figcaption {
+    display: inline-block;
+    vertical-align: middle;
+}
+

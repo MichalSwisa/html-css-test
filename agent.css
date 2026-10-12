@@ -12,6 +12,9 @@
     display: inline-block;
     border-radius: 10px;
     font-size: 15px;
+     border: 1px solid #ddd;
+         background: transparent;
+
 }
 
 .top-bar i,
@@ -27,6 +30,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 nav a {
@@ -47,6 +51,8 @@ nav a {
     margin-right: 10px;
     border-radius: 10px;
     font-size: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
 }
 
 #l-btn {
